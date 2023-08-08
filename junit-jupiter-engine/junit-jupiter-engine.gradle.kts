@@ -27,6 +27,8 @@ dependencies {
 	testImplementation(libs.groovy4)
 	testImplementation(libs.memoryfilesystem)
 	testImplementation(testFixtures(projects.junitJupiterApi))
+	implementation("org.ow2.asm:asm-tree:9.5")
+	implementation("org.ow2.asm:asm:9.5")
 
 	osgiVerification(projects.junitPlatformLauncher)
 }

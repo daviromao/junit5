@@ -15,6 +15,8 @@ module org.junit.jupiter.api {
 	requires static transitive org.apiguardian.api;
 	requires transitive org.junit.platform.commons;
 	requires transitive org.opentest4j;
+	requires org.objectweb.asm;
+	requires org.objectweb.asm.tree;
 
 	exports org.junit.jupiter.api;
 	exports org.junit.jupiter.api.condition;

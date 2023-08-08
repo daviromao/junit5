@@ -9,6 +9,8 @@ dependencies {
 	api(platform(projects.junitBom))
 	api(libs.opentest4j)
 	api(projects.junitPlatformCommons)
+	implementation("org.ow2.asm:asm-tree:9.5")
+	implementation("org.ow2.asm:asm:9.5")
 
 	compileOnlyApi(libs.apiguardian)
 

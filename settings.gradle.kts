@@ -109,3 +109,4 @@ rootProject.children.forEach { project ->
 
 enableFeaturePreview("STABLE_CONFIGURATION_CACHE")
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+include("test-smells")

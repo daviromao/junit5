@@ -9,6 +9,8 @@ description = "JUnit Jupiter Params"
 dependencies {
 	api(platform(projects.junitBom))
 	api(projects.junitJupiterApi)
+	implementation("org.ow2.asm:asm-tree:9.5")
+	implementation("org.ow2.asm:asm:9.5")
 
 	compileOnlyApi(libs.apiguardian)
 
